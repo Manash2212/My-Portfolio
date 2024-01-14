@@ -1,0 +1,57 @@
+.services {
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .textContainer {
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    hr {
+      width: 40rem;
+      border: none;
+      border-top: 1px solid #424242;
+    }
+
+    p {
+      font-size: 1.7rem;
+      font-weight: 200;
+      color: #8f8b8b;
+      text-align: right;
+    }
+  }
+  .titleContainer {
+    flex: 2;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+      img {
+        width: 30rem;
+        height: 10rem;
+        border-radius: 5rem;
+        object-fit: cover;
+      }
+
+      h1 {
+        font-size: 5rem;
+        font-weight: 100;
+        letter-spacing: 0.5rem;
+      }
+    }
+  }
+
+  .listContainer {
+    flex: 2;
+  }
+}
